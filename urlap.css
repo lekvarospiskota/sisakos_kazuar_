@@ -1,0 +1,58 @@
+.urlap{
+    background-image: url("./kepek/hatter.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+}
+
+form{
+    display: grid;
+    gap: 20px;
+}
+
+.input-container{
+    display: grid;
+    grid-template-columns: 0.06fr 1fr;
+}
+
+.input-container input{
+    width: 250px;
+}
+
+.radio {
+    margin-left: 8px;
+}
+
+button {
+    width: 140px; 
+}
+
+button[type="submit"] {
+    background-color: #023164; 
+    color: white;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"] {
+    background-color: #545c63; 
+    color: white;
+    border: none;
+}
+
+button[type="reset"]:hover {
+    background-color: #667176; 
+}
+
+#nev, #email {
+    width: 250px;
+}
+
+#textarea{
+    width: 50%;
+    height: 100px;
+}

@@ -1,0 +1,71 @@
+.elso, .masodik {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    gap: 20px;
+}
+
+#kep1{
+    min-width: 200px;
+    max-width: 240px;
+    width: 100%;
+    height: auto;
+}
+
+#kep2{
+    max-height: 240px;
+    height: 100%;
+    width: auto;
+}
+
+.video {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+}
+
+
+aside{
+    padding-top: 50px;
+}
+
+aside a {
+    color: #512148;
+    font-size: 1.1em;
+}
+
+aside a:visited {
+    color: #c79abe;
+}
+
+aside a:hover {
+    color: #b4b9be;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .elso, .masodik {
+        display: flex;          
+        flex-direction: column;   
+    }
+    #kep1{  
+        max-width: 180px;
+        display: block;
+        margin: 0;
+    }
+
+    #kep2{
+        height: 100%;
+        display: block;
+        margin: 0;
+    }
+    figcaption {
+        text-align: left;
+    }
+}

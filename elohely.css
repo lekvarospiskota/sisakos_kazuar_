@@ -1,0 +1,67 @@
+.elso, .masodik, .harmadik{
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    gap: 20px;
+}
+
+#kep1{
+    max-width: 150px;
+    min-width: 100px;
+    width: 100%;
+    height: auto;
+}
+
+#kep2{
+    max-height: 230px;
+    height: 60%;
+    width: auto;
+}
+
+#kep3{
+    min-width: 210px;
+    width: 100%;
+    height: auto;
+}
+
+summary{
+    font-size: 17px;
+}
+
+table {
+    width: 100%;
+}
+
+table caption{
+    caption-side: top;
+}
+
+th, td {
+    border: 1px solid black !important;  
+}
+
+@media (max-width: 768px) {
+    .elso, .masodik, .harmadik {
+        display: flex;          
+        flex-direction: column;
+    }
+    #kep1{
+        width: 100%;
+        display: block;
+        margin: 0; 
+    }
+    #kep2{
+        height: 50%;
+        display: block;
+        margin: 0;
+    }
+    #kep3 {
+        width: 60%;
+        height: auto;
+        display: block;
+        margin: 0;  
+    }
+    figcaption {
+        text-align: left;
+    }
+}
